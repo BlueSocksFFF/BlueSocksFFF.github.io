@@ -72,12 +72,12 @@ My dissertation follows three connected parts:
   <li>
     <span class="pub-status">Under review</span>
     <strong>MemCasa: Can LLM Agents Act on What They Remember?</strong><br>
-    <u>Yifan Zhang</u>, Ziyan Li, Xiaojing Zhang, Qian Tao. Submitted to AAAI-27, 2026.
+    <u>Yifan Zhang</u>, Ziyan Li, Xiaojing Zhang, Qian Tao. Manuscript under review, 2026.
   </li>
   <li>
     <span class="pub-status">Under review</span>
     <strong>Beyond Field Accuracy: Two-Axis Diagnosis of Inverse-PINN Parameter Error.</strong><br>
-    <u>Yifan Zhang</u>, Qian Tao. Submitted to AAAI-27, 2026.
+    <u>Yifan Zhang</u>, Qian Tao. Manuscript under review, 2026.
   </li>
   <li>
     <strong>Trust through Words: The Systemize-Empathize-Effect of Language in Task-Oriented Conversational Agents.</strong><br>

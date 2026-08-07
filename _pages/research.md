@@ -27,7 +27,7 @@ I study how a scientific agent should represent, retrieve, consolidate, and upda
 
 Recall accuracy alone does not show whether an agent uses memory correctly. I develop executable and intervention-based evaluations that test how changes in memory access, evidence quality, and tool outputs affect downstream actions. The evaluations report exact success, partial competence, causal sensitivity, calibration, reproducibility, and abstention rather than hiding failures in one aggregate score.
 
-**Current foundation:** MemCasa / SmartMem evaluates memory-in-action with 840 deterministic evaluation units across six memory demands. It is the basis of the first-author submission *MemCasa: Can LLM Agents Act on What They Remember?*, submitted to AAAI-27 and currently under review.
+**Current foundation:** MemCasa / SmartMem evaluates memory-in-action with 840 deterministic evaluation units across six memory demands. It is the basis of the first-author manuscript *MemCasa: Can LLM Agents Act on What They Remember?*, currently under review.
 
 ### 3. Domain-agent construction and validation for representative scientific tasks
 
@@ -46,8 +46,8 @@ I will integrate the memory substrate, validation-gated updater, scientific tool
 
 | Project | Focus | Status |
 |---|---|---|
-| MemCasa / SmartMem | Deterministic memory-in-action evaluation | First-author AAAI-27 submission; under review |
-| Inverse-PINN reliability diagnosis | Two-axis attribution of scientific parameter error | First-author AAAI-27 submission; under review |
+| MemCasa / SmartMem | Deterministic memory-in-action evaluation | First-author manuscript; under review |
+| Inverse-PINN reliability diagnosis | Two-axis attribution of scientific parameter error | First-author manuscript; under review |
 | Procedural Memory Contracts | Validation-gated procedural memory updates | Ongoing prototype |
 | PatentAgent | Automated pharmaceutical patent analysis | [arXiv preprint](https://arxiv.org/abs/2410.21312) |
 

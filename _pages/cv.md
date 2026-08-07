@@ -38,9 +38,9 @@ Researched agents for pharmaceutical patent and scientific-paper analysis, knowl
 
 ## Selected research projects
 
-**MemCasa / SmartMem — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author AAAI-27 submission, under review.
+**MemCasa / SmartMem — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
 
-**Inverse-PINN reliability diagnosis.** Developed a two-axis framework separating finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author AAAI-27 submission, under review.
+**Inverse-PINN reliability diagnosis.** Developed a two-axis framework separating finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author manuscript under review.
 
 **Procedural Memory Contracts.** Developing an ongoing failure-aware prototype for validation-gated updates to agent skills as procedural-memory artifacts; studies held-out improvement, regression, and negative transfer.
 
