@@ -1,64 +1,66 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+published: true
 redirect_from:
   - /resume
+excerpt: "Academic curriculum vitae of Yifan Zhang."
 ---
 
-{% include base_path %}
+## Research profile
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Ph.D. student working at the intersection of LLM agents, agent memory, reliability evaluation, and AI for science. My current research asks whether stored information changes executable behavior and how failures in scientific inference can be attributed to evidence, learned representations, and endpoint delivery.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**South China University of Technology**, Guangzhou, China<br>
+Doctor of Philosophy in Software Engineering, Sept. 2025–June 2029 (expected)<br>
+Advisor: Prof. Qian Tao
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Northwestern University**, Evanston, Illinois, USA<br>
+M.S. in Computer Science, Sept. 2022–Apr. 2024; GPA: 3.415/4.00
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Colby College**, Waterville, Maine, USA<br>
+B.A. in Computer Science, minor in Managerial Economics, May 2022; Presidential Scholarship
+
+## Research and industry experience
+
+**Ph.D. Student — South China University of Technology**, Sept. 2025–present<br>
+Developing methods and evaluations for agent memory and reliable AI for scientific workflows under Prof. Qian Tao. Leading first-author studies on memory-in-action evaluation and inverse-PINN reliability diagnosis.
+
+**Machine Learning Engineer Intern — DeepGlint**, Mar.–Sept. 2025<br>
+Co-developed HMDocRAG-Bench, a hierarchical benchmark with 6,000 question–answer pairs for document retrieval-augmented generation. Built data-generation pipelines spanning multi-hop, multimodal, and multi-page reasoning.
+
+**Visiting Student — AutoLab, Westlake University**, June 2024–Sept. 2025<br>
+Researched agents for pharmaceutical patent and scientific-paper analysis, knowledge-enhanced AI, and AI-for-science applications. Co-developed PatentAgent and related evaluation workflows for evidence-intensive document analysis.
+
+## Selected research projects
+
+**MemCasa / SmartMem — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author AAAI-27 submission, under review.
+
+**Inverse-PINN reliability diagnosis.** Developed a two-axis framework separating finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author AAAI-27 submission, under review.
+
+**Procedural Memory Contracts.** Developing an ongoing failure-aware prototype for validation-gated updates to agent skills as procedural-memory artifacts; studies held-out improvement, regression, and negative transfer.
+
+**PatentAgent.** Co-developed an agent for automated pharmaceutical patent analysis, including multi-step retrieval and evidence synthesis across long technical documents.
+
+## Teaching
+
+**Project Manager, CS 396: Introduction to Game Design — Northwestern University**, Fall 2023<br>
+Supported debugging, student projects, and instruction in game physics, Unity, Visual Studio, and C++.
+
+**Teaching Assistant, MA 125: Single-Variable Calculus — Colby College**, Spring 2020<br>
+Provided grading and individualized tutoring support.
+
+**Teaching Assistant, CS 15X: Computational Thinking — Colby College**, Fall 2019<br>
+Introduced Python programming and debugging to students with varied prior experience.
+
+## Technical skills and languages
+
+**Research:** experimental design, benchmark construction, causal and diagnostic evaluation, scientific machine learning, technical writing<br>
+**Programming:** Python, Julia, R, MATLAB, C/C++, Java, SQL; PyTorch, TensorFlow, scikit-learn, Pandas, NumPy<br>
+**Languages:** Mandarin (native), English (fluent), Spanish (intermediate)
+
+For publication details, see [Publications](/publications/) or [Google Scholar](https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en).

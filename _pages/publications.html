@@ -1,36 +1,86 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
+published: true
+excerpt: "Publications, preprints, and current submissions by Yifan Zhang."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>My research spans LLM agents, agent memory, reliable AI for science, benchmark design, natural language processing, and human-centered AI. My name is <u>underlined</u>; * denotes equal contribution. Current bibliographic information is also available on <a href="https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en">Google Scholar</a>.</p>
 
-{% include base_path %}
+<h2>Current submissions</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol class="publication-list">
+  <li>
+    <span class="pub-status">Under review</span>
+    <strong>MemCasa: Can LLM Agents Act on What They Remember?</strong><br>
+    <u>Yifan Zhang</u>, Ziyan Li, Xiaojing Zhang, Qian Tao.<br>
+    Submitted to the AAAI Conference on Artificial Intelligence (AAAI-27), 2026.
+  </li>
+  <li>
+    <span class="pub-status">Under review</span>
+    <strong>Beyond Field Accuracy: Two-Axis Diagnosis of Inverse-PINN Parameter Error.</strong><br>
+    <u>Yifan Zhang</u>, Qian Tao.<br>
+    Submitted to the AAAI Conference on Artificial Intelligence (AAAI-27), 2026.
+  </li>
+</ol>
 
+<h2>Peer-reviewed publications</h2>
 
+<ol class="publication-list">
+  <li>
+    <strong>Trust through Words: The Systemize-Empathize-Effect of Language in Task-Oriented Conversational Agents.</strong><br>
+    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Dan W. Linna Jr.<br>
+    <em>Computers in Human Behavior</em>, 165:108516, 2025. <a href="https://doi.org/10.1016/j.chb.2024.108516">[DOI]</a>
+  </li>
+  <li>
+    <strong>Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-Based Person Retrieval.</strong><br>
+    Tianlu Zheng*, <u>Yifan Zhang*</u>, Xiang An, Ziyong Feng, Kaicheng Yang, Qichuan Ding.<br>
+    <em>Proceedings of EMNLP</em>, 2025. <a href="https://aclanthology.org/2025.emnlp-main.14/">[Paper]</a>
+  </li>
+  <li>
+    <strong>Empathetic Language in LLMs under Prompt Engineering: A Comparative Study in the Legal Field.</strong><br>
+    <u>Yifan Zhang</u>, Christopher Rashidian, Sabine Brunswicker, Dan Whitenack, Daniel W. Linna Jr.<br>
+    <em>Procedia Computer Science</em>, 244:308–317, 2024. <a href="https://doi.org/10.1016/j.procs.2024.10.204">[DOI]</a>
+  </li>
+  <li>
+    <strong>The Impact of Empathy Display in Language of Conversational AI: A Controlled Experiment with a Legal Chatbot.</strong><br>
+    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Dan W. Linna Jr.<br>
+    <em>Proceedings of the 57th Hawaii International Conference on System Sciences (HICSS-57)</em>, 455–466, 2024. <a href="https://aisel.aisnet.org/hicss-57/cl/ethics/2">[Paper]</a>
+  </li>
+</ol>
 
+<h2>Preprints</h2>
+
+<ol class="publication-list">
+  <li>
+    <strong>A Survey on Large Language Model Benchmarks.</strong><br>
+    Shiwen Ni, Guhong Chen, Shuaimin Li, Xin Chen, Siheng Li, Beizhen Wang, Qiyao Wang, Xingjian Wang, <u>Yifan Zhang</u>, Ruifeng Xu.<br>
+    arXiv:2508.15361, 2025. <a href="https://arxiv.org/abs/2508.15361">[Preprint]</a>
+  </li>
+  <li>
+    <strong>PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis.</strong><br>
+    Xin Wang*, <u>Yifan Zhang*</u>, Xiaojing Zhang, Longhui Yu, Xinna Lin, Jindong Jiang, Bin Ma, Kaicheng Yu.<br>
+    arXiv:2410.21312, 2024. <a href="https://arxiv.org/abs/2410.21312">[Preprint]</a>
+  </li>
+  <li>
+    <strong>An Empirical Study on Reconstructing Scientific History to Forecast Future Trends.</strong><br>
+    Xin Wang, Xiaojing Zhang, <u>Yifan Zhang</u>, Xinna Lin, Ruifeng Li, Kaicheng Yu.<br>
+    OpenReview preprint, 2024. <a href="https://openreview.net/forum?id=lxMlenl3XU">[Preprint]</a>
+  </li>
+  <li>
+    <strong>Beyond Words: A Controlled Experiment on the Role of Linguistic Empathy for Trust in Conversational AI.</strong><br>
+    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Dan W. Linna Jr.<br>
+    SSRN Electronic Journal, 2024. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4924883">[Preprint]</a>
+  </li>
+</ol>
+
+<h2>Thesis</h2>
+
+<ol class="publication-list">
+  <li>
+    <strong>Advancements in Chest Radiography Pneumonia Classification through Fine-Tuning Using the MIMIC-CXR-JPG Dataset.</strong><br>
+    <u>Yifan Zhang</u>. M.S. thesis, Northwestern University, 2024. <a href="https://www.mccormick.northwestern.edu/computer-science/documents/yifan-zhang-tr.pdf">[Thesis]</a>
+  </li>
+</ol>

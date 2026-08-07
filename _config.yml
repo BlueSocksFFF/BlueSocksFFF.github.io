@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Yifan Zhang"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Yifan Zhang"
+description              : &description "Ph.D. student studying memory enhancement and reliability evaluation for LLM-based agents in scientific research."
+url                      : https://bluesocksfff.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "BlueSocksFFF/BlueSocksFFF.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,21 +23,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yifan Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Ph.D. Student in Software Engineering · LLM Agents · Agent Memory · Reliable AI for Science"
+  location         : "Guangzhou, China"
+  employer         : "South China University of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yifanzhang2024@u.northwestern.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
 
@@ -45,12 +45,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "BlueSocksFFF"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         :
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -140,9 +140,11 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Yifan Zhang
+  links:
+    - https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en
+    - https://github.com/BlueSocksFFF
 
 
 # Analytics
@@ -168,6 +170,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - _posts
   - CHANGELOG
   - Capfile
   - config
@@ -212,19 +215,7 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+collections: {}
 
 
 # These settings control how pages and collections are included in the site
@@ -247,41 +238,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      published: false
 
 
 # Sass/SCSS
@@ -294,7 +251,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins

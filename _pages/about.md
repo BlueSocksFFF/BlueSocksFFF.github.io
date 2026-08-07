@@ -1,49 +1,102 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Yifan Zhang"
+excerpt: "Ph.D. student working on memory enhancement and reliability evaluation for LLM-based agents in scientific research."
 author_profile: true
-redirect_from: 
+published: true
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<p class="research-kicker">LLM Agents · Agent Memory · Reliable AI for Science</p>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a Ph.D. student in **Software Engineering** at the [South China University of Technology](https://www.scut.edu.cn/en/), advised by **Prof. Qian Tao**. I expect to graduate in **June 2029**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research studies how large language model (LLM) agents can use memory in scientific work without making their decisions opaque or unreliable. I focus on the complete chain from scientific evidence to memory, from memory to action, and from action to validated scientific outcomes.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div class="profile-actions">
+  <a class="btn btn--primary" href="/research/">Research overview</a>
+  <a class="btn btn--inverse" href="/publications/">Publications</a>
+  <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en">Google Scholar</a>
+</div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Dissertation research
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Research on Memory Enhancement and Reliability Evaluation Methods for Large Language Model-Based Agents in Scientific Research**
 
-**Markdown generator**
+My dissertation follows three connected parts:
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<div class="research-grid">
+  <article class="research-card">
+    <span class="research-number">01</span>
+    <h3>Multi-source memory enhancement</h3>
+    <p>Represent, retrieve, consolidate, and update heterogeneous scientific claims, observations, artifacts, procedures, and negative evidence while retaining provenance, uncertainty, and temporal validity.</p>
+  </article>
+  <article class="research-card">
+    <span class="research-number">02</span>
+    <h3>Reliability of memory-driven behavior</h3>
+    <p>Evaluate whether remembered information is actually used in later actions, and diagnose where failures enter the evidence–memory–behavior chain.</p>
+  </article>
+  <article class="research-card">
+    <span class="research-number">03</span>
+    <h3>Domain-agent construction and validation</h3>
+    <p>Integrate memory and evaluation methods in representative scientific workflows, then test which mechanisms transfer across domains.</p>
+  </article>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Current work
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<div class="project-list">
+  <div class="project-item">
+    <div><strong>MemCasa / SmartMem</strong><br><span>Memory-in-action evaluation</span></div>
+    <p>A deterministic benchmark that asks whether an LLM agent can act on remembered information, with 840 evaluation units across six memory demands and both strict and graded scoring.</p>
+  </div>
+  <div class="project-item">
+    <div><strong>Inverse-PINN reliability diagnosis</strong><br><span>Reliable AI for science</span></div>
+    <p>A two-axis framework that separates finite-sample observation resolution from learned residual preference when diagnosing error in an inferred physical parameter.</p>
+  </div>
+  <div class="project-item">
+    <div><strong>Procedural Memory Contracts</strong><br><span>Ongoing prototype</span></div>
+    <p>An ongoing prototype for validation-gated updates to agent procedures, with checks for held-out improvement, regression, and negative transfer.</p>
+  </div>
+  <div class="project-item">
+    <div><strong>PatentAgent</strong><br><span>Scientific document agents</span></div>
+    <p>An agent for automated pharmaceutical patent analysis, including multi-step retrieval and evidence synthesis across long technical documents.</p>
+  </div>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Recent and selected papers
+
+<ol class="publication-list compact-publications">
+  <li>
+    <span class="pub-status">Under review</span>
+    <strong>MemCasa: Can LLM Agents Act on What They Remember?</strong><br>
+    <u>Yifan Zhang</u>, Ziyan Li, Xiaojing Zhang, Qian Tao. Submitted to AAAI-27, 2026.
+  </li>
+  <li>
+    <span class="pub-status">Under review</span>
+    <strong>Beyond Field Accuracy: Two-Axis Diagnosis of Inverse-PINN Parameter Error.</strong><br>
+    <u>Yifan Zhang</u>, Qian Tao. Submitted to AAAI-27, 2026.
+  </li>
+  <li>
+    <strong>Trust through Words: The Systemize-Empathize-Effect of Language in Task-Oriented Conversational Agents.</strong><br>
+    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Dan W. Linna Jr. <em>Computers in Human Behavior</em>, 2025. <a href="https://doi.org/10.1016/j.chb.2024.108516">[DOI]</a>
+  </li>
+  <li>
+    <strong>Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-Based Person Retrieval.</strong><br>
+    Tianlu Zheng*, <u>Yifan Zhang*</u>, Xiang An, Ziyong Feng, Kaicheng Yang, Qichuan Ding. <em>EMNLP</em>, 2025. <a href="https://aclanthology.org/2025.emnlp-main.14/">[Paper]</a>
+  </li>
+  <li>
+    <strong>PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis.</strong><br>
+    Xin Wang*, <u>Yifan Zhang*</u>, Xiaojing Zhang, et al. arXiv, 2024. <a href="https://arxiv.org/abs/2410.21312">[Preprint]</a>
+  </li>
+</ol>
+
+<p><a href="/publications/"><strong>View the complete publication list →</strong></a></p>
+
+## Background
+
+Before beginning my Ph.D., I completed an M.S. in Computer Science at Northwestern University and a B.A. in Computer Science with a minor in Managerial Economics at Colby College. I have also worked as a machine learning engineer intern at DeepGlint and as a visiting student at AutoLab, Westlake University.
+
+I welcome conversations about LLM-agent memory, trustworthy evaluation, scientific machine learning, and reproducible benchmark design. The best way to reach me is at [yifanzhang2024@u.northwestern.edu](mailto:yifanzhang2024@u.northwestern.edu).

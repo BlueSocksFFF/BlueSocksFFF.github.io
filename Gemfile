@@ -10,3 +10,6 @@ group :jekyll_plugins do
 end
 
 gem 'github-pages'
+
+# Windows does not ship the IANA timezone database used by Jekyll.
+gem 'tzinfo-data', platforms: [:mingw, :x64_mingw]
