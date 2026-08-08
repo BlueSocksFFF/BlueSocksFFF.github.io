@@ -21,7 +21,7 @@ My doctoral research connects three stages of this problem:
 
 I study how a scientific agent should represent, retrieve, consolidate, and update heterogeneous claims, observations, computational artifacts, procedures, failure cases, and pending intentions. The aim is to preserve each item's provenance, uncertainty, dependencies, and temporal validity, while using held-out validation and regression tests to control memory updates.
 
-**Ongoing prototype:** Procedural Memory Contracts studies localized, verifier-gated updates to agent skills and the negative transfer caused by plausible but operationally incorrect instructions.
+**Ongoing prototype:** Procedural Memory Contracts studies localized, verifier-gated updates to agent skills. In an early controlled document-transformation case, an original skill improved a no-memory result from 3/13 to 11/13, while two attempted updates scored 10/13 and 3/13. This pilot exposes update regression; held-out generalization testing is planned.
 
 ### 2. Reliability evaluation of memory-driven LLM-agent behavior
 
@@ -31,9 +31,9 @@ Recall accuracy alone does not show whether an agent uses memory correctly. I de
 
 ### 3. Domain-agent construction and validation for representative scientific tasks
 
-I will integrate the memory substrate, validation-gated updater, scientific tools, and reliability evaluations into domain agents. Controlled physics-informed inference supports tests against known truth; literature and patent analysis provide open-ended workflows for evaluating provenance and cross-document memory. The goal is to identify reusable principles for deciding when memory improves scientific work and when an output should instead be checked or withheld.
+I will integrate the memory substrate, validation-gated updater, scientific tools, and reliability evaluations into domain agents. In the primary physics-informed inference testbed, an agent will retrieve provenance-tagged observations and prior solver configurations, configure and run tools, and decide whether to report, rerun, or withhold an inferred parameter. One secondary patent-analysis workflow will test whether provenance and cross-document memory transfer to an open-ended setting.
 
-**Current foundations:** My inverse-PINN work diagnoses parameter error by separating observation resolution from residual preference, while [PatentAgent](https://arxiv.org/abs/2410.21312) provides experience with evidence-intensive pharmaceutical patent analysis.
+**Current foundations:** My inverse-PINN work is not itself an agent-memory result; it supplies a diagnostic template that separates observation resolution, residual preference, and endpoint delivery. [PatentAgent](https://arxiv.org/abs/2410.21312) provides experience with evidence-intensive pharmaceutical patent analysis.
 
 ## Evaluation principles
 

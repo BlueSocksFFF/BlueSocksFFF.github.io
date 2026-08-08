@@ -11,13 +11,14 @@ redirect_from:
 
 <p class="research-kicker">LLM Agents · Agent Memory · Reliable AI for Science</p>
 
-I am a Ph.D. student in **Software Engineering** at the [South China University of Technology](https://www.scut.edu.cn/en/), advised by **Prof. Qian Tao**. I expect to graduate in **June 2029**.
+I am a Ph.D. student in the **School of Software Engineering** at the [South China University of Technology](https://www.scut.edu.cn/en/), advised by **Prof. Qian Tao**. I expect to graduate in **June 2029**.
 
 My research studies how large language model (LLM) agents can use memory in scientific work without making their decisions opaque or unreliable. I focus on the complete chain from scientific evidence to memory, from memory to action, and from action to validated scientific outcomes.
 
 <div class="profile-actions">
   <a class="btn btn--primary" href="/research/">Research overview</a>
   <a class="btn btn--inverse" href="/publications/">Publications</a>
+  <a class="btn btn--inverse" href="/files/Yifan_Zhang_Academic_CV.pdf">Download CV</a>
   <a class="btn btn--inverse" href="https://scholar.google.com/citations?user=n6F1v7MAAAAJ&hl=en">Google Scholar</a>
 </div>
 
@@ -41,7 +42,7 @@ My dissertation follows three connected parts:
   <article class="research-card">
     <span class="research-number">03</span>
     <h3>Domain-agent construction and validation</h3>
-    <p>Integrate memory and evaluation methods in representative scientific workflows, then test which mechanisms transfer across domains.</p>
+    <p>Use physics-informed inference as a controlled primary testbed, then test transfer in one evidence-intensive patent-analysis workflow.</p>
   </article>
 </div>
 
@@ -54,11 +55,11 @@ My dissertation follows three connected parts:
   </div>
   <div class="project-item">
     <div><strong>Inverse-PINN reliability diagnosis</strong><br><span>Reliable AI for science</span></div>
-    <p>A two-axis framework that separates finite-sample observation resolution from learned residual preference when diagnosing error in an inferred physical parameter.</p>
+    <p>An adjacent methodological foundation&mdash;not itself an agent-memory result&mdash;that separates observation resolution, residual preference, and endpoint delivery in scientific inference.</p>
   </div>
   <div class="project-item">
     <div><strong>Procedural Memory Contracts</strong><br><span>Ongoing prototype</span></div>
-    <p>An ongoing prototype for validation-gated updates to agent procedures, with checks for held-out improvement, regression, and negative transfer.</p>
+    <p>An ongoing prototype for validation-gated procedural-memory updates. Recorded pilots expose regression and negative transfer; held-out generalization testing is planned.</p>
   </div>
   <div class="project-item">
     <div><strong>PatentAgent</strong><br><span>Scientific document agents</span></div>

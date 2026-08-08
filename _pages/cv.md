@@ -11,7 +11,9 @@ excerpt: "Academic curriculum vitae of Yifan Zhang."
 
 ## Research profile
 
-Ph.D. student working at the intersection of LLM agents, agent memory, reliability evaluation, and AI for science. My current research asks whether stored information changes executable behavior and how failures in scientific inference can be attributed to evidence, learned representations, and endpoint delivery.
+Ph.D. student studying a three-part pipeline for scientific LLM agents: multi-source memory enhancement, reliability evaluation of memory-driven behavior, and domain-agent construction and validation.
+
+[Download the academic CV as a PDF](/files/Yifan_Zhang_Academic_CV.pdf).
 
 ## Education
 
@@ -28,7 +30,7 @@ B.A. in Computer Science, minor in Managerial Economics, May 2022; Presidential 
 ## Research and industry experience
 
 **Ph.D. Student — South China University of Technology**, Sept. 2025–present<br>
-Developing methods and evaluations for agent memory and reliable AI for scientific workflows under Prof. Qian Tao. Leading first-author studies on memory-in-action evaluation and inverse-PINN reliability diagnosis.
+Developing methods and evaluations for agent memory and reliable AI for scientific workflows under Prof. Qian Tao. Led two first-author manuscripts on memory-in-action evaluation and inverse-PINN reliability diagnosis.
 
 **Machine Learning Engineer Intern — DeepGlint**, Mar.–Sept. 2025<br>
 Co-developed HMDocRAG-Bench, a hierarchical benchmark with 6,000 question–answer pairs for document retrieval-augmented generation. Built data-generation pipelines spanning multi-hop, multimodal, and multi-page reasoning.
@@ -40,9 +42,9 @@ Researched agents for pharmaceutical patent and scientific-paper analysis, knowl
 
 **MemCasa / SmartMem — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
 
-**Inverse-PINN reliability diagnosis.** Developed a two-axis framework separating finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author manuscript under review.
+**Inverse-PINN reliability diagnosis.** Developed an adjacent methodological foundation—not itself an agent-memory result—that separates finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author manuscript under review.
 
-**Procedural Memory Contracts.** Developing an ongoing failure-aware prototype for validation-gated updates to agent skills as procedural-memory artifacts; studies held-out improvement, regression, and negative transfer.
+**Procedural Memory Contracts.** Developing a validation-gated workflow for procedural-memory updates. Current pilots expose regression and negative transfer; held-out generalization testing is planned.
 
 **PatentAgent.** Co-developed an agent for automated pharmaceutical patent analysis, including multi-step retrieval and evidence synthesis across long technical documents.
 
@@ -59,7 +61,7 @@ Introduced Python programming and debugging to students with varied prior experi
 
 ## Technical skills and languages
 
-**Research:** experimental design, benchmark construction, causal and diagnostic evaluation, scientific machine learning, technical writing<br>
+**Research:** experimental design, benchmark construction, intervention-based and diagnostic evaluation, scientific machine learning, technical writing<br>
 **Programming:** Python, Julia, R, MATLAB, C/C++, Java, SQL; PyTorch, TensorFlow, scikit-learn, Pandas, NumPy<br>
 **Languages:** Mandarin (native), English (fluent), Spanish (intermediate)
 

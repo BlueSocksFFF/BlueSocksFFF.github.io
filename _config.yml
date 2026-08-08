@@ -22,7 +22,7 @@ repository               : "BlueSocksFFF/BlueSocksFFF.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.webp"
   name             : "Yifan Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student in Software Engineering · LLM Agents · Agent Memory · Reliable AI for Science"
@@ -118,7 +118,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -136,7 +136,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : profile.webp
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -171,10 +171,29 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - _posts
+  - images/profile.png
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - markdown_generator
+  - talkmap
   - CHANGELOG
+  - CONTRIBUTING.md
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
@@ -185,6 +204,11 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - _config_docker.yml
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:
