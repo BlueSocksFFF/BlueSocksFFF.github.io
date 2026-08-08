@@ -280,6 +280,47 @@
 }
 
 @media (max-width: 640px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #main,
+  .page,
+  .page__inner-wrap,
+  .page__content,
+  .research-grid,
+  .research-card,
+  .project-list,
+  .project-item {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  #main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .page {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .page__content,
+  .page__content a,
+  .research-card,
+  .project-item {
+    overflow-wrap: anywhere;
+  }
+
+  .research-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+  }
+
   .project-item {
     grid-template-columns: 1fr;
     gap: 0.45rem;
