@@ -35,7 +35,7 @@ Developing methods and evaluations for agent memory and reliable AI for scientif
 **Machine Learning Engineer Intern — DeepGlint**, Mar.–Sept. 2025<br>
 Co-developed HMDocRAG-Bench, a hierarchical benchmark with 6,000 question–answer pairs for document retrieval-augmented generation. Built data-generation pipelines spanning multi-hop, multimodal, and multi-page reasoning.
 
-**Visiting Student — AutoLab, Westlake University**, June 2024–Sept. 2025<br>
+**Visiting Student — AutoLab, Westlake University**, June 2024–March 2025<br>
 Researched agents for pharmaceutical patent and scientific-paper analysis, knowledge-enhanced AI, and AI-for-science applications. Co-developed PatentAgent and related evaluation workflows for evidence-intensive document analysis.
 
 ## Selected research projects
