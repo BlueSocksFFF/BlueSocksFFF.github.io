@@ -40,7 +40,7 @@ Researched agents for pharmaceutical patent and scientific-paper analysis, knowl
 
 ## Selected research projects
 
-**MemCasa — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
+**MemCasa — Memory-in-action evaluation.** Led the design and evaluation of a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
 
 **Inverse-PINN reliability diagnosis.** Developed an adjacent methodological foundation—not itself an agent-memory result—that separates finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author manuscript under review.
 
