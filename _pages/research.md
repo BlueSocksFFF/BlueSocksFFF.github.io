@@ -21,13 +21,13 @@ My doctoral research connects three stages of this problem:
 
 I study how a scientific agent should represent, retrieve, consolidate, and update heterogeneous claims, observations, computational artifacts, procedures, failure cases, and pending intentions. The aim is to preserve each item's provenance, uncertainty, dependencies, and temporal validity, while using held-out validation and regression tests to control memory updates.
 
-**Ongoing prototype:** Procedural Memory Contracts studies localized, verifier-gated updates to agent skills. In an early controlled document-transformation case, an original skill improved a no-memory result from 3/13 to 11/13, while two attempted updates scored 10/13 and 3/13. This pilot exposes update regression; held-out generalization testing is planned.
+**Ongoing prototype:** Procedural Memory Contracts studies localized, verifier-gated updates to agent skills. Candidate updates declare evidence, scope, preservation constraints, and regression checks; held-out scientific validation determines whether an update is accepted.
 
 ### 2. Reliability evaluation of memory-driven LLM-agent behavior
 
 Recall accuracy alone does not show whether an agent uses memory correctly. I develop executable and intervention-based evaluations that test how changes in memory access, evidence quality, and tool outputs affect downstream actions. The evaluations report exact success, partial competence, causal sensitivity, calibration, reproducibility, and abstention rather than hiding failures in one aggregate score.
 
-**Current foundation:** MemCasa / SmartMem evaluates memory-in-action with 840 deterministic evaluation units across six memory demands. It is the basis of the first-author manuscript *MemCasa: Can LLM Agents Act on What They Remember?*, currently under review.
+**Current foundation:** MemCasa evaluates memory-in-action with 840 deterministic evaluation units across six memory demands. It is the basis of the first-author manuscript *MemCasa: Can LLM Agents Act on What They Remember?*, currently under review. A subsequent single-model exploratory 24-case, 288-decision inverse-PINN memory pilot did not meet its numerical benefit gate, prespecified and frozen before the full run. Its qualitative audit instead exposed a memory-to-action reliability gap: an agent could recognize an accepted provenance conflict yet fail to execute the required safe action. I treat this as evidence for the research problem, not as a positive method result.
 
 ### 3. Domain-agent construction and validation for representative scientific tasks
 
@@ -46,8 +46,9 @@ I will integrate the memory substrate, validation-gated updater, scientific tool
 
 | Project | Focus | Status |
 |---|---|---|
-| MemCasa / SmartMem | Deterministic memory-in-action evaluation | First-author manuscript; under review |
+| MemCasa | Deterministic memory-in-action evaluation | First-author manuscript; under review |
 | Inverse-PINN reliability diagnosis | Two-axis attribution of scientific parameter error | First-author manuscript; under review |
+| Scientific-memory reliability pilot | Inverse-PINN memory-to-action evaluation | Completed frozen study; benefit gate not met |
 | Procedural Memory Contracts | Validation-gated procedural memory updates | Ongoing prototype |
 | PatentAgent | Automated pharmaceutical patent analysis | [arXiv preprint](https://arxiv.org/abs/2410.21312) |
 

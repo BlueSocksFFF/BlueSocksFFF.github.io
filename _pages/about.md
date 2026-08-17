@@ -50,7 +50,7 @@ My dissertation follows three connected parts:
 
 <div class="project-list">
   <div class="project-item">
-    <div><strong>MemCasa / SmartMem</strong><br><span>Memory-in-action evaluation</span></div>
+    <div><strong>MemCasa</strong><br><span>Memory-in-action evaluation</span></div>
     <p>A deterministic benchmark that asks whether an LLM agent can act on remembered information, with 840 evaluation units across six memory demands and both strict and graded scoring.</p>
   </div>
   <div class="project-item">
@@ -58,8 +58,8 @@ My dissertation follows three connected parts:
     <p>An adjacent methodological foundation&mdash;not itself an agent-memory result&mdash;that separates observation resolution, residual preference, and endpoint delivery in scientific inference.</p>
   </div>
   <div class="project-item">
-    <div><strong>Procedural Memory Contracts</strong><br><span>Ongoing prototype</span></div>
-    <p>An ongoing prototype for validation-gated procedural-memory updates. Recorded pilots expose regression and negative transfer; held-out generalization testing is planned.</p>
+    <div><strong>Scientific-memory reliability pilot</strong><br><span>Completed frozen study</span></div>
+    <p>A single-model exploratory, 24-case, 288-decision inverse-PINN memory study that did not meet its benefit gate, prespecified and frozen before the full run, but exposed a gap between recognizing provenance conflict and executing the required safe action.</p>
   </div>
   <div class="project-item">
     <div><strong>PatentAgent</strong><br><span>Scientific document agents</span></div>
@@ -82,7 +82,7 @@ My dissertation follows three connected parts:
   </li>
   <li>
     <strong>Trust through Words: The Systemize-Empathize-Effect of Language in Task-Oriented Conversational Agents.</strong><br>
-    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Dan W. Linna Jr. <em>Computers in Human Behavior</em>, 2025. <a href="https://doi.org/10.1016/j.chb.2024.108516">[DOI]</a>
+    Sabine Brunswicker, <u>Yifan Zhang</u>, Christopher Rashidian, Daniel W. Linna Jr. <em>Computers in Human Behavior</em>, 2025. <a href="https://doi.org/10.1016/j.chb.2024.108516">[DOI]</a>
   </li>
   <li>
     <strong>Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-Based Person Retrieval.</strong><br>

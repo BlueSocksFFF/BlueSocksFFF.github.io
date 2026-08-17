@@ -22,7 +22,7 @@ Doctor of Philosophy in Software Engineering, Sept. 2025–June 2029 (expected)<
 Advisor: Prof. Qian Tao
 
 **Northwestern University**, Evanston, Illinois, USA<br>
-M.S. in Computer Science, Sept. 2022–Apr. 2024; GPA: 3.415/4.00
+M.S. in Computer Science, Sept. 2022–Apr. 2024
 
 **Colby College**, Waterville, Maine, USA<br>
 B.A. in Computer Science, minor in Managerial Economics, May 2022; Presidential Scholarship
@@ -40,9 +40,11 @@ Researched agents for pharmaceutical patent and scientific-paper analysis, knowl
 
 ## Selected research projects
 
-**MemCasa / SmartMem — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
+**MemCasa — Memory-in-action evaluation.** Designed a deterministic benchmark with 840 evaluation units across six memory demands, strict and graded scoring, and controlled memory policies. First-author manuscript under review.
 
 **Inverse-PINN reliability diagnosis.** Developed an adjacent methodological foundation—not itself an agent-memory result—that separates finite-sample observation resolution from signed learned-residual preference, with endpoint-delivery validation across 240 fresh-noise runs. First-author manuscript under review.
+
+**Scientific-memory reliability pilot.** Completed a single-model exploratory 24-case, 288-decision inverse-PINN memory study whose benefit gate was prespecified and frozen before the full run but was not met. Qualitative audit exposed a gap between recognizing provenance conflict and executing the required safe action; this is problem evidence, not a positive method claim.
 
 **Procedural Memory Contracts.** Developing a validation-gated workflow for procedural-memory updates. Current pilots expose regression and negative transfer; held-out generalization testing is planned.
 
